@@ -5,6 +5,16 @@ Our work was accepted by CVPR 2026! 🎉✨
 
 ---
 
+## Overview
+
+<p align="center">
+  <img src="figures/overview.png" alt="PFGNet Overview" width="100%">
+</p>
+
+PFGNet is a fully convolutional framework that dynamically modulates receptive fields via pixel-wise frequency-guided gating. Inspired by biological center-surround mechanisms, our Peripheral Frequency Gating (PFG) block extracts local spectral cues (gradient, Laplacian, variance) to fuse multi-scale large-kernel peripheral responses with learnable center suppression. This forms adaptive ring-shaped band-pass filters that selectively amplify mid-frequency motion while suppressing static backgrounds and noise. By decomposing large kernels into separable 1D convolutions ($1 \times k$ and $k \times 1$), we reduce per-channel complexity from $\mathcal{O}(k^2)$ to $\mathcal{O}(2k)$. Without relying on recurrence or attention, PFGNet delivers SOTA or near-SOTA spatiotemporal forecasting accuracy with minimal computational overhead.
+
+---
+
 ## 1. Environment setup
 
 This repository directly inherits the codebase and dependencies of OpenSTL. We recommend first making sure you can successfully run OpenSTL.
