@@ -1,6 +1,7 @@
 # PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning
 
 **[Paper Link (arXiv)](https://arxiv.org/abs/2602.20537)**
+
 Our work was accepted by CVPR 2026! 🎉✨
 
 ---
@@ -102,7 +103,7 @@ python tools/test.py -d mmnist -c configs/mmnist/PFG.py --ex_name mmnist_pfg --t
 
 ## 5. Acknowledgements
 
-This project is built on top of the [OpenSTL](https://github.com/chengtuluo/OpenSTL) framework in terms of code structure, training pipeline, and data preparation. We sincerely thank the authors and contributors of OpenSTL for their great work.
+This project is built on top of the [OpenSTL](https://github.com/chengtan9907/OpenSTL) framework in terms of code structure, training pipeline, and data preparation. We sincerely thank the authors and contributors of OpenSTL for their great work.
 
 ---
 
