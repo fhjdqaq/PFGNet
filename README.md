@@ -1,8 +1,11 @@
 # PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning
 
-**[Paper Link (arXiv)](https://arxiv.org/abs/2602.20537)**
 
 Our work was accepted by CVPR 2026! 🎉✨
+
+[![arXiv](https://img.shields.io/badge/arXiv-2602.20537-b31b1b.svg)](https://arxiv.org/abs/2602.20537)
+[![HF Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2602.20537)
+[![HF Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weights-orange)](https://huggingface.co/fhjd123/PFGNet)
 
 ---
 
