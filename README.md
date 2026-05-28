@@ -115,11 +115,11 @@ This project is built on top of the [OpenSTL](https://github.com/chengtan9907/Op
 If you find this work helpful, please consider citing our paper:
 
 ```bibtex
-@misc{cai2026pfgnetfullyconvolutionalfrequencyguided,
-      title={PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning}, 
-      author={Xinyong Cai and Changbin Sun and Yong Wang and Hongyu Yang and Yuankai Wu},
-      year={2026},
-      eprint={2602.20537},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Cai_2026_CVPR,
+    author    = {Cai, Xinyong and Sun, Changbin and Wang, Yong and Yang, Hongyu and Wu, Yuankai},
+    title     = {PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {38848-38858}
 }
